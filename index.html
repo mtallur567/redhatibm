@@ -1,6 +1,6 @@
 <html>
 <header><title>This is title</title></header>
 <body>
-<p>hostname is: $(hostname)</p>
+<?php "this is version of the app. I am running on host -> " . gethostname() ." (" . $_SERVER['SERVER_ADDR'] . ")" . "\n"; ?>
 </body>
 </html>
